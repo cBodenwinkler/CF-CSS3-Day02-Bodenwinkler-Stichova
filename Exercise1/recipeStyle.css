@@ -1,0 +1,67 @@
+.container {
+	width: 800px;
+	margin: auto;
+	text-shadow: 1px 1px 0px #000000;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-family: 'Happy Monkey';
+}
+
+p, li {
+	color: #707070;
+}
+
+#header {
+	text-align: center;
+}
+
+#header>p {
+	font-size: 0.8em;
+}
+
+h1 {
+	color: #DB0038;
+}
+
+h2 {
+	color:  #3998A3;
+}
+
+h3 { 
+	color:  #474747;
+}
+
+.hero {
+	background-color: #f4f4f4;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+li {
+	padding-bottom: 5px;
+	padding-top:  5px;
+}
+
+.rating > span {
+	color: yellow;
+	font-size: 25px;
+}
+.rating {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+}
+
+
+
+/* 
+
+
+Center the content in the footer
+
+Apply the web-font "Happy Monkey" to the whole page
+
+
+ */
