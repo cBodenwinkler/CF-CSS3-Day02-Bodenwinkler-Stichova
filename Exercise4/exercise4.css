@@ -4,17 +4,57 @@
 	text-align: center;
 }
 
+
 .content {
 	width: auto;
 	height: 50px;
+	display: inline-block;
+	display: flex;
+	margin: 20px;
 	background-color: #d1d1d1;
+	justify-content: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	border: 1px solid black;
-	margin: 20px;
-	text-align: center;
 }
 
+.col {
+	width: auto;
+	height: 50px;
+	display: inline-block;
+	display: flex;
+	/*padding-top: 20px;
+	padding-bottom: 20px;*/
+	margin: 20px;
+	justify-content: center;
+}
+
+#col1 {
+	background-color: #d1d1d1;
+	height: 50px;
+	width: 33%;
+	justify-content: center;
+	margin-right: 20px;
+}
+
+#col2 {
+	background-color: #d1d1d1;
+	height: 50px;
+	width: 33%;
+	float: left;
+	justify-content: center;
+	margin-right: 20px;
+}
+
+#col3 {
+	background-color: #d1d1d1;
+	height: 50px;
+	width: 33%;
+	float: left;
+	justify-content: center;
+
+}
+
+<<<<<<< HEAD
 div[class="Columns"] > div[class="content"] {
 	padding-right: 20px;
 	float: left;
@@ -23,4 +63,9 @@ div[class="Columns"] > div[class="content"] {
 }
 
 .seContent {
+=======
+a {
+	margin: auto;
+	height: auto;
+>>>>>>> d6ea063a403049c0e518f9259f0817bd9f9fa7c7
 }
