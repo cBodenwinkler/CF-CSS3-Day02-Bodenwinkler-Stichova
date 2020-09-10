@@ -15,6 +15,12 @@
 	text-align: center;
 }
 
-div[class="Columns"] > span[class="content"] {
+div[class="Columns"] > div[class="content"] {
 	padding-right: 20px;
+	float: left;
+	width: 25%;
+
+}
+
+.seContent {
 }
